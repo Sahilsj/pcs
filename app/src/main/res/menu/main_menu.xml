@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single">
+  <item
+      android:id="@+id/nav_home"
+      android:title="HOME"
+      android:icon="@drawable/dashboard"/>
+      <item
+          android:id="@+id/nav_search"
+          android:title="SEARCH"
+          android:icon="@drawable/search"/>
+      <item
+
+          android:id="@+id/nav_services"
+          android:title="SERVICES"
+          android:icon="@drawable/administrativetools48"/>
+
+  </group>
+    <item android:title="Profile">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:title="login"
+                    android:icon="@drawable/lock"/>
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="profile"
+                    android:icon="@drawable/profile"/>
+                <item
+
+
+                    android:id="@+id/nav_logout"
+                    android:title="Logout"
+                    android:icon="@drawable/ulock"/>
+
+            </group>
+        </menu>
+
+    </item>
+    <item android:title="Categories">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_mosquite"
+                    android:title="Mosquite Control Treatment"
+                    android:icon="@drawable/menu_icon"/>
+                <item
+                    android:id="@+id/nav_radent"
+                    android:title="Rodent Control Treatment"
+                    android:icon="@drawable/menu_icon"/>
+                <item
+                    android:id="@+id/nav_goldnix"
+                    android:title="Goldnix control Treatment"
+                    android:icon="@drawable/menu_icon"/>
+                <item
+                    android:id="@+id/nav_terminte"
+                    android:title="Terminte control Treatment"
+                    android:icon="@drawable/menu_icon"/>
+                <item
+                    android:id="@+id/nav_flycontrol"
+                    android:title="Fly control Treatment"
+                    android:icon="@drawable/menu_icon"/>
+                <item
+                    android:id="@+id/nav_lizard"
+                    android:title="Lizard control Treatment"
+                    android:icon="@drawable/menu_icon"/>
+
+
+            </group>
+        </menu>
+
+    </item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:title="ABOUT US"
+            android:icon="@drawable/aboutus"/>
+
+    </group>
+
+
+</menu>
